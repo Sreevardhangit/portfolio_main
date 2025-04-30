@@ -16,6 +16,10 @@ selectElement(".burger-menu-icon").addEventListener("click", () => {
         }
     })
 });
+document.querySelector('a[download]').addEventListener('click', function () {
+  console.log('Resume download started.');
+});
+
 
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
